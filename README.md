@@ -1,17 +1,14 @@
 ```plaintext
 1. -DESKRIPSI APLIKASI-
-    Quiz AR App merupakan aplikasi quiz interaktif berbasis Flutter yang digunakan untuk menguji pemahaman pengguna mengenai Flutter dan Dart. Aplikasi ini dirancang dengan tampilan modern serta menyediakan interaksi seperti pemilihan jawaban, timer, dan perhitungan skor secara otomatis.
-
+    Quiz AR App merupakan aplikasi quiz interaktif berbasis Flutter yang digunakan untuk menguji pemahaman pengguna mengenai     Flutter dan Dart. Aplikasi ini dirancang dengan tampilan modern serta menyediakan interaksi seperti pemilihan jawaban,       timer, dan perhitungan skor secara otomatis.
 
 2. -DASAR TEORI-
-    Flutter adalah framework untuk pengembangan aplikasi mobile yang menggunakan bahasa Dart. Flutter menerapkan konsep widget-based UI, di mana seluruh tampilan dibangun menggunakan widget.
-
+    Flutter adalah framework untuk pengembangan aplikasi mobile yang menggunakan bahasa Dart.
+    Flutter menerapkan konsep widget-based UI, di mana seluruh tampilan dibangun menggunakan widget.
     Terdapat dua jenis widget utama:
     StatelessWidget → digunakan untuk tampilan statis
     StatefulWidget → digunakan untuk tampilan dinamis
-
     Konsep ini memungkinkan aplikasi menjadi modular, rapi, dan mudah dikembangkan.
-
 
 3. -STRUKTUR PROJECT-
 QUIZ_AR_APP_PRAK2/
@@ -46,7 +43,6 @@ QUIZ_AR_APP_PRAK2/
     services → pengambilan data JSON
     assets → menyimpan file gambar dan soal
 
-
 4. -FITUR APLIKASI-
     Quiz interaktif
     Soal ditampilkan secara acak
@@ -55,7 +51,6 @@ QUIZ_AR_APP_PRAK2/
     Perhitungan skor otomatis
     Tampilan UI modern
     Navigasi antar halaman
-
 
 5. -NAVIGASI ANTAR HALAMAN-
     Aplikasi memiliki alur navigasi sebagai berikut:
@@ -66,7 +61,6 @@ QUIZ_AR_APP_PRAK2/
     Result → Home
     Navigasi ini menunjukkan bahwa aplikasi berjalan secara terstruktur dan memenuhi ketentuan praktikum.
 
-
 6. -HALAMAN APLIKASI-
     a. Welcome Page
        Halaman awal aplikasi yang berisi tampilan pembuka dan tombol “Get Started”.
@@ -75,7 +69,7 @@ QUIZ_AR_APP_PRAK2/
        Halaman utama yang bersifat statis, menampilkan informasi aplikasi dan tombol menuju quiz.
 
     c. Stateful Page
-       Halaman quiz yang bersifat dinamis dan menggunakan setState(). Halaman ini memiliki interaksi seperti menjawab soal, timer, dan skor.
+       Halaman quiz yang bersifat dinamis dan menggunakan setState(). Halaman ini memiliki interaksi seperti menjawab soal,         timer, dan skor.
     
     d. Result Page
        Halaman hasil yang menampilkan skor dan persentase nilai setelah quiz selesai.
@@ -83,10 +77,9 @@ QUIZ_AR_APP_PRAK2/
     e. About Page
        Halaman yang berisi informasi mengenai aplikasi, fitur, teknologi, dan tujuan aplikasi.
 
-
 7. -WIDGET PADA STATELESS PAGE-
     a. Scaffold
-       Widget ini bekerja sebagai kerangka utama halaman yang menampung AppBar, Drawer, dan body sehingga digunakan untuk menyusun struktur halaman utama.
+       Widget ini bekerja sebagai kerangka utama halaman yang menampung AppBar, Drawer, dan body sehingga digunakan untuk           menyusun struktur halaman utama.
 
     b. AppBar
        Widget ini bekerja sebagai header di bagian atas halaman sehingga digunakan untuk menampilkan judul aplikasi.
@@ -95,7 +88,7 @@ QUIZ_AR_APP_PRAK2/
        Widget ini bekerja sebagai panel navigasi samping yang muncul dari kiri sehingga digunakan untuk berpindah halaman.
 
     d. ListView
-       Widget ini bekerja menyusun daftar widget secara vertikal dan bisa discroll sehingga digunakan untuk menampilkan menu drawer.
+       Widget ini bekerja menyusun daftar widget secara vertikal dan bisa discroll sehingga digunakan untuk menampilkan menu        drawer.
 
     e. DrawerHeader
        Widget ini bekerja sebagai bagian atas drawer sehingga digunakan untuk menampilkan identitas aplikasi.
@@ -122,7 +115,7 @@ QUIZ_AR_APP_PRAK2/
        Widget ini bekerja memberi ruang kosong dengan ukuran tertentu sehingga digunakan untuk jarak antar elemen.
 
     m. Container
-       Widget ini bekerja sebagai pembungkus dengan dekorasi sehingga digunakan untuk membuat tampilan seperti kartu informasi.
+       Widget ini bekerja sebagai pembungkus dengan dekorasi sehingga digunakan untuk membuat tampilan seperti kartu                informasi.
 
     n. Row
        Widget ini bekerja menyusun widget secara horizontal sehingga digunakan untuk menampilkan fitur aplikasi.
@@ -144,7 +137,6 @@ QUIZ_AR_APP_PRAK2/
 
     t. Transform
        Widget ini bekerja mengubah posisi widget sehingga digunakan untuk animasi pergeseran.
-
 
 8. -WIDGET PADA STATEFUL PAGE-
     a. Scaffold
@@ -204,7 +196,6 @@ QUIZ_AR_APP_PRAK2/
     s. ElevatedButton
        Widget ini bekerja sebagai tombol interaktif sehingga digunakan untuk tombol Next.
 
-
 9. -SUMBER DATA (JSON)-
    Data soal disimpan dalam file: assets/questions.json
    Struktur data:
@@ -213,7 +204,6 @@ QUIZ_AR_APP_PRAK2/
     - wrongAnswers → jawaban salah
    Penggunaan JSON membuat data lebih fleksibel dan mudah dikelola.
 
-
 10. -MODEL DATA-
     File:
     models/question_model.dart
@@ -221,13 +211,11 @@ QUIZ_AR_APP_PRAK2/
      - Merepresentasikan data soal
      - Mengubah JSON menjadi object Dart
 
-
 11. -SERVICE DATA-
     File: services/question_service.dart
     Digunakan untuk:
      -  Membaca file JSON dari assets
      -  Mengubah data menjadi list soal
-
 
 12. -IMPLEMENTASI UI-
     Aplikasi menggunakan:

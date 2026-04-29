@@ -1,6 +1,6 @@
 ```plaintext
 1. -DESKRIPSI APLIKASI-
-    Quiz AR App merupakan aplikasi quiz interaktif berbasis Flutter yang digunakan untuk menguji pemahaman pengguna mengenai     Flutter dan Dart. Aplikasi ini dirancang dengan tampilan modern serta menyediakan interaksi seperti pemilihan jawaban,       timer, dan perhitungan skor secara otomatis.
+    Quiz AR App merupakan aplikasi quiz interaktif berbasis Flutter yang digunakan untuk menguji pemahaman pengguna mengenai     Flutter dan Dart. Tampilan modern dengan fitur interaktif seperti jawaban, timer, dan skor otomatis.
 
 2. -DASAR TEORI-
     Flutter adalah framework untuk pengembangan aplikasi mobile yang menggunakan bahasa Dart.
@@ -69,7 +69,7 @@ QUIZ_AR_APP_PRAK2/
        Halaman utama yang bersifat statis, menampilkan informasi aplikasi dan tombol menuju quiz.
 
     c. Stateful Page
-       Halaman quiz yang bersifat dinamis dan menggunakan setState(). Halaman ini memiliki interaksi seperti menjawab soal,         timer, dan skor.
+       Halaman quiz dinamis yang menggunakan setState() dengan interaksi menjawab soal, timer, dan skor..
     
     d. Result Page
        Halaman hasil yang menampilkan skor dan persentase nilai setelah quiz selesai.
@@ -79,7 +79,7 @@ QUIZ_AR_APP_PRAK2/
 
 7. -WIDGET PADA STATELESS PAGE-
     a. Scaffold
-       Widget ini bekerja sebagai kerangka utama halaman yang menampung AppBar, Drawer, dan body sehingga digunakan untuk           menyusun struktur halaman utama.
+       Widget ini sebagai kerangka utama halaman yang menampung AppBar, Drawer, dan body untuk menyusun struktur tampilan.
 
     b. AppBar
        Widget ini bekerja sebagai header di bagian atas halaman sehingga digunakan untuk menampilkan judul aplikasi.
@@ -88,7 +88,7 @@ QUIZ_AR_APP_PRAK2/
        Widget ini bekerja sebagai panel navigasi samping yang muncul dari kiri sehingga digunakan untuk berpindah halaman.
 
     d. ListView
-       Widget ini bekerja menyusun daftar widget secara vertikal dan bisa discroll sehingga digunakan untuk menampilkan menu        drawer.
+       Widget ini menyusun daftar secara vertikal dan dapat discroll untuk menampilkan menu drawer.
 
     e. DrawerHeader
        Widget ini bekerja sebagai bagian atas drawer sehingga digunakan untuk menampilkan identitas aplikasi.
@@ -115,7 +115,7 @@ QUIZ_AR_APP_PRAK2/
        Widget ini bekerja memberi ruang kosong dengan ukuran tertentu sehingga digunakan untuk jarak antar elemen.
 
     m. Container
-       Widget ini bekerja sebagai pembungkus dengan dekorasi sehingga digunakan untuk membuat tampilan seperti kartu                informasi.
+       Widget ini sebagai pembungkus dengan dekorasi untuk membuat tampilan seperti kartu informasi.
 
     n. Row
        Widget ini bekerja menyusun widget secara horizontal sehingga digunakan untuk menampilkan fitur aplikasi.

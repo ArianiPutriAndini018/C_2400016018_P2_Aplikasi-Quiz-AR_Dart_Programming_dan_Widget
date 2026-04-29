@@ -1,0 +1,36 @@
+name: quiz_ar_app_prak2
+description: "A Flutter Quiz App with JSON and Random Questions"
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  font_awesome_flutter: ^10.7.0
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^6.0.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon.png"
+  adaptive_icon_background: "#F7EDE9"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/questions.json
+    - assets/welcome.png

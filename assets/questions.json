@@ -1,0 +1,370 @@
+[
+  {
+    "questionVariants": [
+      "Bahasa utama Flutter adalah?",
+      "Flutter menggunakan bahasa apa?"
+    ],
+    "correctAnswer": "Dart",
+    "wrongAnswers": ["Java", "Kotlin", "Python"]
+  },
+  {
+    "questionVariants": [
+      "Apa itu widget di Flutter?",
+      "Widget dalam Flutter adalah apa?"
+    ],
+    "correctAnswer": "Komponen UI",
+    "wrongAnswers": ["Database", "API", "Server"]
+  },
+  {
+    "questionVariants": [
+      "Apa fungsi setState()?",
+      "setState digunakan untuk apa?"
+    ],
+    "correctAnswer": "Memperbarui UI",
+    "wrongAnswers": ["Navigasi", "Import package", "Menghapus data"]
+  },
+  {
+    "questionVariants": [
+      "StatelessWidget digunakan untuk?",
+      "Kapan menggunakan StatelessWidget?"
+    ],
+    "correctAnswer": "UI statis",
+    "wrongAnswers": ["UI dinamis", "Database", "Networking"]
+  },
+  {
+    "questionVariants": [
+      "StatefulWidget digunakan untuk?",
+      "Kapan memakai StatefulWidget?"
+    ],
+    "correctAnswer": "UI dinamis",
+    "wrongAnswers": ["UI statis", "Server", "Compile"]
+  },
+
+  {
+    "questionVariants": [
+      "Apa fungsi Scaffold?",
+      "Scaffold digunakan untuk?"
+    ],
+    "correctAnswer": "Kerangka halaman",
+    "wrongAnswers": ["Animasi", "Database", "API"]
+  },
+  {
+    "questionVariants": [
+      "Widget untuk menampilkan teks?",
+      "Apa widget teks di Flutter?"
+    ],
+    "correctAnswer": "Text",
+    "wrongAnswers": ["Label", "Paragraph", "String"]
+  },
+  {
+    "questionVariants": [
+      "Widget untuk tombol?",
+      "Tombol di Flutter pakai apa?"
+    ],
+    "correctAnswer": "ElevatedButton",
+    "wrongAnswers": ["ButtonView", "TapWidget", "Clicker"]
+  },
+  {
+    "questionVariants": [
+      "Widget untuk layout vertikal?",
+      "Layout ke bawah pakai widget apa?"
+    ],
+    "correctAnswer": "Column",
+    "wrongAnswers": ["Row", "Stack", "List"]
+  },
+  {
+    "questionVariants": [
+      "Widget untuk layout horizontal?",
+      "Susunan ke samping pakai?"
+    ],
+    "correctAnswer": "Row",
+    "wrongAnswers": ["Column", "Stack", "FlexBox"]
+  },
+
+  {
+    "questionVariants": [
+      "Widget untuk memberi jarak?",
+      "Spacing di Flutter pakai?"
+    ],
+    "correctAnswer": "SizedBox",
+    "wrongAnswers": ["MarginBox", "Space", "Gap"]
+  },
+  {
+    "questionVariants": [
+      "Container digunakan untuk?",
+      "Fungsi Container?"
+    ],
+    "correctAnswer": "Membungkus widget",
+    "wrongAnswers": ["Navigasi", "API", "Database"]
+  },
+  {
+    "questionVariants": [
+      "Padding berfungsi?",
+      "Apa itu Padding?"
+    ],
+    "correctAnswer": "Memberi jarak dalam",
+    "wrongAnswers": ["Menghapus widget", "Navigasi", "Styling font"]
+  },
+  {
+    "questionVariants": [
+      "Navigator digunakan untuk?",
+      "Fungsi Navigator?"
+    ],
+    "correctAnswer": "Navigasi halaman",
+    "wrongAnswers": ["Animasi", "Database", "Debugging"]
+  },
+  {
+    "questionVariants": [
+      "MaterialApp berfungsi?",
+      "MaterialApp digunakan untuk?"
+    ],
+    "correctAnswer": "Root aplikasi",
+    "wrongAnswers": ["Database", "API", "File system"]
+  },
+
+  {
+    "questionVariants": [
+      "Apa itu hot reload?",
+      "Hot reload berfungsi untuk?"
+    ],
+    "correctAnswer": "Update UI cepat",
+    "wrongAnswers": ["Compile ulang", "Restart device", "Debug error"]
+  },
+  {
+    "questionVariants": [
+      "File utama Flutter?",
+      "Entry point Flutter?"
+    ],
+    "correctAnswer": "main.dart",
+    "wrongAnswers": ["app.dart", "home.dart", "index.dart"]
+  },
+  {
+    "questionVariants": [
+      "Fungsi main() di Dart?",
+      "main() digunakan untuk?"
+    ],
+    "correctAnswer": "Entry point program",
+    "wrongAnswers": ["UI", "Database", "Widget"]
+  },
+  {
+    "questionVariants": [
+      "Tipe data angka bulat di Dart?",
+      "Integer di Dart disebut?"
+    ],
+    "correctAnswer": "int",
+    "wrongAnswers": ["number", "integer", "double"]
+  },
+  {
+    "questionVariants": [
+      "Tipe data desimal?",
+      "Angka pecahan di Dart?"
+    ],
+    "correctAnswer": "double",
+    "wrongAnswers": ["float", "decimal", "int"]
+  },
+
+  {
+    "questionVariants": [
+      "Tipe data teks?",
+      "String digunakan untuk?"
+    ],
+    "correctAnswer": "Teks",
+    "wrongAnswers": ["Angka", "Boolean", "Object"]
+  },
+  {
+    "questionVariants": [
+      "Tipe data boolean?",
+      "Nilai true/false disebut?"
+    ],
+    "correctAnswer": "bool",
+    "wrongAnswers": ["binary", "flag", "logic"]
+  },
+  {
+    "questionVariants": [
+      "Apa itu null safety?",
+      "Null safety berarti?"
+    ],
+    "correctAnswer": "Mencegah null error",
+    "wrongAnswers": ["Null wajib", "Null dihapus", "Null tidak dipakai"]
+  },
+  {
+    "questionVariants": [
+      "List di Dart adalah?",
+      "Apa itu List?"
+    ],
+    "correctAnswer": "Kumpulan data",
+    "wrongAnswers": ["Function", "Widget", "API"]
+  },
+  {
+    "questionVariants": [
+      "Map di Dart adalah?",
+      "Map digunakan untuk?"
+    ],
+    "correctAnswer": "Key-value",
+    "wrongAnswers": ["Array", "List", "Loop"]
+  },
+
+  {
+    "questionVariants": [
+      "Function di Dart digunakan untuk?",
+      "Fungsi function?"
+    ],
+    "correctAnswer": "Menjalankan logika",
+    "wrongAnswers": ["UI", "Database", "File"]
+  },
+  {
+    "questionVariants": [
+      "Arrow function ditulis?",
+      "Syntax arrow function?"
+    ],
+    "correctAnswer": "=>",
+    "wrongAnswers": ["->", "==>", "<="]
+  },
+  {
+    "questionVariants": [
+      "Keyword untuk membuat class?",
+      "Class dibuat dengan?"
+    ],
+    "correctAnswer": "class",
+    "wrongAnswers": ["object", "struct", "model"]
+  },
+  {
+    "questionVariants": [
+      "Constructor digunakan untuk?",
+      "Fungsi constructor?"
+    ],
+    "correctAnswer": "Inisialisasi objek",
+    "wrongAnswers": ["Loop", "UI", "Database"]
+  },
+  {
+    "questionVariants": [
+      "Keyword untuk variabel konstan?",
+      "Konstanta di Dart?"
+    ],
+    "correctAnswer": "const",
+    "wrongAnswers": ["var", "finalize", "static"]
+  },
+
+  {
+    "questionVariants": [
+      "final digunakan untuk?",
+      "Apa itu final?"
+    ],
+    "correctAnswer": "Nilai tidak berubah",
+    "wrongAnswers": ["Mutable", "Dynamic", "Loop"]
+  },
+  {
+    "questionVariants": [
+      "Loop untuk perulangan?",
+      "Perulangan di Dart?"
+    ],
+    "correctAnswer": "for",
+    "wrongAnswers": ["repeat", "loop", "cycle"]
+  },
+  {
+    "questionVariants": [
+      "Conditional di Dart?",
+      "Percabangan pakai?"
+    ],
+    "correctAnswer": "if",
+    "wrongAnswers": ["when", "case", "switcher"]
+  },
+  {
+    "questionVariants": [
+      "Switch digunakan untuk?",
+      "Fungsi switch?"
+    ],
+    "correctAnswer": "Percabangan banyak",
+    "wrongAnswers": ["Loop", "Function", "Class"]
+  },
+  {
+    "questionVariants": [
+      "Async digunakan untuk?",
+      "Fungsi async?"
+    ],
+    "correctAnswer": "Operasi asynchronous",
+    "wrongAnswers": ["UI", "Loop", "Static"]
+  },
+
+  {
+    "questionVariants": [
+      "await digunakan untuk?",
+      "Fungsi await?"
+    ],
+    "correctAnswer": "Menunggu proses",
+    "wrongAnswers": ["Loop", "Stop app", "Restart"]
+  },
+  {
+    "questionVariants": [
+      "Future di Dart?",
+      "Future adalah?"
+    ],
+    "correctAnswer": "Data di masa depan",
+    "wrongAnswers": ["List", "Widget", "String"]
+  },
+  {
+    "questionVariants": [
+      "BuildContext digunakan untuk?",
+      "Apa itu BuildContext?"
+    ],
+    "correctAnswer": "Referensi widget tree",
+    "wrongAnswers": ["Database", "API", "Loop"]
+  },
+  {
+    "questionVariants": [
+      "Center widget digunakan untuk?",
+      "Fungsi Center?"
+    ],
+    "correctAnswer": "Memposisikan tengah",
+    "wrongAnswers": ["Navigasi", "Padding", "Loop"]
+  },
+  {
+    "questionVariants": [
+      "Image widget untuk?",
+      "Fungsi Image?"
+    ],
+    "correctAnswer": "Menampilkan gambar",
+    "wrongAnswers": ["Text", "Video", "Audio"]
+  },
+
+  {
+    "questionVariants": [
+      "ListView digunakan untuk?",
+      "Fungsi ListView?"
+    ],
+    "correctAnswer": "List scroll",
+    "wrongAnswers": ["Grid", "Row", "Column"]
+  },
+  {
+    "questionVariants": [
+      "AppBar adalah?",
+      "Fungsi AppBar?"
+    ],
+    "correctAnswer": "Header aplikasi",
+    "wrongAnswers": ["Footer", "Database", "Body"]
+  },
+  {
+    "questionVariants": [
+      "Icon widget digunakan untuk?",
+      "Fungsi Icon?"
+    ],
+    "correctAnswer": "Menampilkan ikon",
+    "wrongAnswers": ["Text", "Image", "Video"]
+  },
+  {
+    "questionVariants": [
+      "Navigator.push digunakan untuk?",
+      "Fungsi Navigator.push?"
+    ],
+    "correctAnswer": "Pindah halaman",
+    "wrongAnswers": ["Hapus data", "Loop", "Styling"]
+  },
+  {
+    "questionVariants": [
+      "Navigator.pop digunakan untuk?",
+      "Fungsi Navigator.pop?"
+    ],
+    "correctAnswer": "Kembali halaman",
+    "wrongAnswers": ["Next page", "Reload", "Reset"]
+  }
+]

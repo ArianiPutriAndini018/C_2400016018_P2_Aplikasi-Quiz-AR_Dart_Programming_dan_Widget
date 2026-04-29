@@ -1,3 +1,4 @@
+```plaintext
 1. -DESKRIPSI APLIKASI-
     Quiz AR App merupakan aplikasi quiz interaktif berbasis Flutter yang digunakan untuk menguji pemahaman pengguna mengenai Flutter dan Dart. Aplikasi ini dirancang dengan tampilan modern serta menyediakan interaksi seperti pemilihan jawaban, timer, dan perhitungan skor secara otomatis.
 
@@ -13,7 +14,6 @@
 
 
 3. -STRUKTUR PROJECT-
-```plaintext
 QUIZ_AR_APP_PRAK2/
 │
 ├── assets/
